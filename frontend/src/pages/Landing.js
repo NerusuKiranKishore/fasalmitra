@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 
-// Animated wave SVG canvas
 function WaveCanvas() {
   const canvasRef = useRef(null);
   useEffect(() => {
