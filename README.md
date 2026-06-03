@@ -2,6 +2,8 @@
 
 AI-powered farming assistant for small & marginal farmers in Andhra Pradesh.
 Features: Crop Advisory · Weather Tips · Mandi Prices · Government Schemes
+---
+🌐 **Live Demo:** [https://fasalmitra-three.vercel.app](https://fasalmitra-three.vercel.app)
 
 ---
 
