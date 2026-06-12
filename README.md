@@ -4,6 +4,28 @@ AI-powered farming assistant for small & marginal farmers in Andhra Pradesh.
 Features: Crop Advisory · Weather Tips · Mandi Prices · Government Schemes
 ---
 🌐 **Live Demo:** [https://fasalmitra-three.vercel.app](https://fasalmitra-three.vercel.app)
+**Demo Video:** https://youtu.be/yYQM0aOocZM  
+## 🤖 AI Reasoning Agent
+
+FasalMitra uses multi-step AI reasoning (Google Gemini 2.0 Flash) to provide intelligent crop advisory for Andhra Pradesh farmers. The agent analyzes:
+- 🔍 District climate patterns
+- 🌱 Soil type compatibility
+- 📅 Seasonal crop suitability
+- 📊 Land size optimization
+- 💡 Profitability & sustainability
+
+## 🎯 Features
+- AI-powered crop recommendations with multi-step reasoning
+- Real-time weather forecasts with farming tips
+- Live mandi (wholesale market) prices
+- Government farmer schemes & eligibility info
+- Telugu language support
+
+## 🛠️ Built With
+- **Frontend:** React (Vercel)
+- **Backend:** FastAPI (Render)
+- **AI:** Google Gemini 2.0 Flash
+- **APIs:** Open-Meteo, data.gov.in
 
 ---
 
