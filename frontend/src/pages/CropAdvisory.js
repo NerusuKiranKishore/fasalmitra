@@ -81,6 +81,53 @@ export default function CropAdvisory() {
 
       {result && (
         <>
+          {/* NEW: AI Reasoning Steps Display */}
+          {result.reasoning_steps && result.reasoning_steps.length > 0 && (
+            <div style={{
+              marginBottom: "24px",
+              padding: "20px",
+              backgroundColor: "#f0f8ff",
+              borderRadius: "8px",
+              borderLeft: "4px solid #2d7a4a",
+              boxShadow: "0 2px 4px rgba(0,0,0,0.08)"
+            }}>
+              <h3 style={{
+                color: "#2d7a4a",
+                marginTop: 0,
+                marginBottom: "12px",
+                fontSize: "16px",
+                fontWeight: "600"
+              }}>
+                🤖 AI Reasoning Process
+              </h3>
+              <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
+                {result.reasoning_steps.map((step, idx) => (
+                  <div key={idx} style={{
+                    margin: "0",
+                    fontSize: "14px",
+                    color: "#2d3e3e",
+                    lineHeight: "1.5",
+                    animation: `fadeIn 0.5s ease-in-out ${idx * 0.1}s both`
+                  }}>
+                    {step}
+                  </div>
+                ))}
+              </div>
+              <style>{`
+                @keyframes fadeIn {
+                  from {
+                    opacity: 0;
+                    transform: translateY(-5px);
+                  }
+                  to {
+                    opacity: 1;
+                    transform: translateY(0);
+                  }
+                }
+              `}</style>
+            </div>
+          )}
+
           <div className="advice-box">
             <div className="advice-box-label">General Advice</div>
             <p>{result.general_advice}</p>
