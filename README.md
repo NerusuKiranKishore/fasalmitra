@@ -143,9 +143,3 @@ FasalMitra/
 | Schemes | Local JSON |
 
 ---
-
-## 📸 Features
-- 🌱 **AI Crop Advisory** — Soil + Season + District → Best crops to grow
-- 🌤️ **Weather** — 7-day forecast + AI irrigation & pest tips
-- 📊 **Mandi Prices** — Live prices from AP mandis
-- 📋 **Govt Schemes** — 8+ schemes with eligibility & apply links
